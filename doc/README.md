@@ -76,7 +76,7 @@ Un style d'animation cinématographique et télévisuelle japonaise, généralem
       + [**Nettoyage et ajout de données pour l'analyse**](#nettoyage-et-ajout-de-données-pour-lanalyse)
       + [**Structure finale des données**](#structure-finale-des-données)
       + [**Fonctionnalités du Power BI** ](#fonctionnalités-du-power-bi)
-         - [` `*Création de colonnes à partir des données insérées*](#-création-de-colonnes-à-partir-des-données-insérées)
+         - [*Création de colonnes à partir des données insérées*](#création-de-colonnes-à-partir-des-données-insérées)
       + [**Fonctionnalités Externe ajouté au PowerBI**](#fonctionnalités-externe-ajouté-au-powerbi)
       + [**Présentation des Tableaux de Bords et principales analyses**](#présentation-des-tableaux-de-bords-et-principales-analyses)
          - [*Regroupement des données disponibles pour l'analyse par rapport à chaque dossier*](#regroupement-des-données-disponibles-pour-lanalyse-par-rapport-à-chaque-dossier)
@@ -93,9 +93,9 @@ Un style d'animation cinématographique et télévisuelle japonaise, généralem
    * [Elaboration en web application interactive](#elaboration-en-web-application-interactive)
       + [**Présentation du bibliothèque Dash**](#présentation-du-bibliothèque-dash)
       + [**Graphe des équipes de travailles en fonction des séries**](#graphe-des-équipes-de-travailles-en-fonction-des-séries)
-         - [*Graphe type 1: Nœuds Travailleurs uniquement*](#graphe-type-1-nœuds-travailleurs-uniquement)
+         - [*Graphe type 1 : Nœuds Travailleurs uniquement*](#graphe-type-1-nœuds-travailleurs-uniquement)
          - [*Graphe Type 2 :  Nœuds Travailleurs et Médias (Nœuds parents)*](#graphe-type-2---nœuds-travailleurs-et-médias-nœuds-parents)
-         - [` `*Affichage d’un série complexe*](#-affichage-dun-série-complexe)
+         - [*Affichage d’un série complexe*](#affichage-dun-série-complexe)
 - [Difficultés rencontrées](#difficultés-rencontrées)
 - [Conclusion](#conclusion-3)
 <!-- TOC end -->
@@ -500,7 +500,7 @@ Remarque 2: Pour obtenir la ligne de tendance en jeûne il faut juste aller dans
 ![](img/image.025.png)
 
 *Figure 18 Exemple de Graphique généré par powerBI*
-#### ` `*Création de colonnes à partir des données insérées*
+#### *Création de colonnes à partir des données insérées*
 Un autre avantage de powerbi est lié à la facilité de manipulation des données. Une fois chargées, nous pouvons effectuer des opérations simples de classification ou transformer l'information en utilisant des méthodes préétablies dans la plateforme.
 
 Dans la figure ci-dessous, il y a quatre colonnes qui ont été créées en utilisant cette fonctionnalité, puis, pour rendre la création des tableaux plus compréhensible, il y a des exemples de codes pour les calculs de chaque colonne.
@@ -723,7 +723,7 @@ Remarque :
 \*
 
 #### *Préférence par âge de personnage*
-` `Une deuxième analyse portait sur la relation entre les doubleurs et leurs personnages. Bien que l'âge au moment du doublage ne soit pas fourni, il est possible de le calculer à partir de la date de naissance du doubleur et de la date de sortie du média grâce à la relation tertiaire existante entre les entités "staff", "character" et "media" illustrée dans la section ‎2.3.1 Model conceptuel des données. Cette relation est traduite dans GraphQL par deux attributs de type liste dans l'entité "staff", et ces deux listes peuvent être combinées en une seule en utilisant l'identifiant de l'edge.
+Une deuxième analyse portait sur la relation entre les doubleurs et leurs personnages. Bien que l'âge au moment du doublage ne soit pas fourni, il est possible de le calculer à partir de la date de naissance du doubleur et de la date de sortie du média grâce à la relation tertiaire existante entre les entités "staff", "character" et "media" illustrée dans la section ‎2.3.1 Model conceptuel des données. Cette relation est traduite dans GraphQL par deux attributs de type liste dans l'entité "staff", et ces deux listes peuvent être combinées en une seule en utilisant l'identifiant de l'edge.
 
 Le format d'âge des personnages n'est pas standard. Pour remédier à cela, nous avons utilisé une expression régulière pour extraire les nombres présents dans l'attribut "character.age" des personnages et avons calculé la moyenne de ces valeurs.
 
@@ -821,10 +821,10 @@ Possibilité de déplacer les nœuds en utilisant la fonction drag & drop
 Affichage des détails et des rôles d'un travailleur spécifique lorsque celui-ci est mis en évidence
 Sélection multiple de nœuds en utilisant le bouton de contrôle pour mettre en évidence plusieurs travailleurs en même temps
 
-` `- Inconvénients de ce genre de graphe:
+- Inconvénients de ce genre de graphe:
 
 1) On ne peut pas clairement voir où se trouve le troisième media.
-1) ` `Il y a beaucoup de liens dans le graphe qui le rend dense, et pour des séries plus complexes, il est difficile de les séparer même si le déplacement des nœuds est toujours possible grâce à la fonctionnalité drag & drop. 
+1) Il y a beaucoup de liens dans le graphe qui le rend dense, et pour des séries plus complexes, il est difficile de les séparer même si le déplacement des nœuds est toujours possible grâce à la fonctionnalité drag & drop. 
 
 En raison de ces éléments, nous avons décidé d'ajouter les nœuds médias dans notre graphe (voir la section suivante).
 
@@ -858,7 +858,7 @@ Sélectionner simultanément un nœud de type média et un nœud de type travail
 *Figure 43 Plusieurs nœuds Travailleurs mis en évidence dans un media*
 
 
-#### ` `*Affichage d’un série complexe*
+#### *Affichage d’un série complexe*
 Pour tester notre outil sur des cas plus complexes, on prend la série « One Pièce ». Le but de cette analyse est de savoir les travailleurs le plus important de cette series.
 
 On entre « one », le media est trouvé avec 49 médias du serie. 
