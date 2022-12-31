@@ -1,6 +1,6 @@
 ﻿**ÉCOLE CENTRALE DE NANTES**
 
-![D:\D\_Files\meFiles\_Suite\ECN\_2nd\_year\Database\TDs et TPs-20220908\TP1\ecn\_logo.jpg](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.001.jpeg)
+![ecn\_logo.jpg](img/image.001.jpeg)
 
 
 **Projet d'Application**
@@ -10,8 +10,10 @@
 
 **Sujet 6 : Conception d'un pipeline de manipulation de données au service des fans d'animation japonaise**
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.002.png)![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.003.png)
-
+| Etudiants      |     | Encadrants    |     |
+|----------------|-----|---------------|-----|
+| Ahmad SAID     |     | Morgan Magnin |     |
+| Rafael Vazquez |     | Tony Ribeiro  |     |
 
 
 **2022 - 2023**
@@ -240,7 +242,7 @@ AniList est une plateforme en ligne accessible à l'adresse <https://anilist.co/
 - **Partage** - grâce à un système de fil d'actualités, obtenez et partagez des informations sur les sujets qui vous intéressent le plus dans l'environnement fermé des anime et des mangas. 
 - **Découverte** - à partir des outils internes de la plateforme, découvrez des sujets nouveaux et tendances en fonction de vos préférences. En plus de l'accès aux critiques sur les productions pour prendre des décisions plus assertives
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.004.png)
+![](img/image.002.png)
 
 *Figure 1 Objectifs Proposés par AniList*
 
@@ -255,7 +257,7 @@ L'objectif de la page d'accueil est de rassembler les informations les plus impo
 - **Forum Activity** - Affiche une recommandation de sujets de discussion et d'engagement des communautés. 
 - **Content Recommendation** - Affiche une liste de programmes qui sont actuellement en vogue ainsi que des anime et manga qui ont été récemment ajoutés à la plate-forme.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.005.png)
+![](img/image.003.png)
 
 *Figure 2 Exemple de Home Page*
 
@@ -265,13 +267,13 @@ La partie Profil cherche à rassembler toutes les informations sur l'utilisateur
 
 Dans la figure ci-dessous, nous voyons la page Overview, qui nous donne des informations sur notre activité dans AniList, ainsi que des informations globales sur le taux et le type de consommation de matériel.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.006.png)
+![](img/image.004.png)
 
 *Figure 3 Exemple Page Profile (1)*
 
 Dans la deuxième figure, nous voyons que le site nous permet déjà d'effectuer une analyse plus approfondie dans plusieurs catégories différentes, comme celles présentées à gauche de la figure. Ces données nous fournissent des informations importantes sur notre propre profil de consommation.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.007.png)
+![](img/image.005.png)
 
 *Figure 4 Exemple Page Profile (2)*
 
@@ -280,7 +282,7 @@ La partie consacrée à la recherche d'animes et de mangas rassemble toutes les 
 
 En regardant la page d'un contenu spécifique, comme indiqué ci-dessous, nous pouvons nous faire une idée des données disponibles sur le site. Parmi elles, je retiens les informations relatives à l'équipe de production, aux personnages de l'anime et leurs doubleurs associés, aux détails sur la durée et la continuité et au classement de l'anime. 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.008.png)
+![](img/image.006.png)
 
 *Figure 5 Anime Exemple*
 
@@ -294,25 +296,25 @@ Ces deux objectifs seront atteints en utilisant les données fournies par AniLis
 # Chapitre II Méthodologie
    ## `	`Environnement de travail
       ### **Python et Jupyter Notebook** 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.009.png)			![Jupyter — Wikipédia](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.010.png)
+![](img/image.007.png)			![Jupyter — Wikipédia](img/image.008.png)
 
 Pour ce projet, nous avons dû apprendre à utiliser Python, un langage de programmation qui s'est révélé facile à comprendre et à utiliser. Il est particulièrement adapté à l'analyse de données grâce aux nombreuses librairies disponibles.
 
 L'utilisation de notebooks Jupyter ou Kaggle offre une approche interactive et directe de la programmation. Au lieu d'avoir un environnement de développement intégré (IDE) et une console séparée, les notebooks sont constitués de cellules exécutables sur une seule page, ce qui permet de voir les résultats de chaque cellule immédiatement. En outre, les notebooks permettent d'utiliser le langage de mise en forme Markdown dans les cellules, ce qui rend le code plus lisible et facilite la présentation de résultats et de graphiques avec des explications structurées.
 
 ### **Bibliothèque pandas**
-![pandas (software) - Wikipedia](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.011.png)
+![pandas (software) - Wikipedia](img/image.009.png)
 
 Parmi les bibliothèques de manipulation et d'analyse de données populaires en Python, on retrouve pandas. Les données sont organisées sous forme de tableaux à deux dimensions appelés DataFrames, qui comprennent des colonnes nommées et des ensembles de valeurs associés appelés séries. Les DataFrames peuvent être exportés au format JSON ou CSV pour être utilisés dans d'autres logiciels ou contextes.
 
 Pandas offre de nombreux avantages pour la manipulation et l'analyse de données. Il est facile de travailler avec des DataFrames, même s'ils contiennent des valeurs manquantes, grâce à l'ensemble de fonctions disponibles dans la bibliothèque. Ces fonctions permettent de filtrer les données en fonction de conditions sur les lignes et/ou les colonnes, de supprimer des lignes ou des colonnes, d'ajouter de nouvelles lignes ou colonnes, de sélectionner des valeurs spécifiques, de fusionner des données, etc. En utilisant ces fonctions, il est possible de facilement manipuler et transformer des données en vue de les analyser ou de les présenter de manière claire et informative.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.012.png)
+![](img/image.010.png)
 
 *Figure 6 Visualisation d’une DataFrame pandas dans un notebook*
 
 ### **Bibliothèque Seaborn et Plotly**
-![Bài Biểu đồ phân phối (Distribution) trong Seaborn - Python-Ngôn ngữ lập  trình thông dụng](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.013.png) ![Plotly - Wikipedia](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.014.png)
+![Bài Biểu đồ phân phối (Distribution) trong Seaborn - Python-Ngôn ngữ lập  trình thông dụng](img/image.011.png) ![Plotly - Wikipedia](img/image.012.png)
 
 Seaborn est une bibliothèque de tracé de graphiques statistiques pour Python qui s'appuie sur Matplotlib. Elle offre une interface simplifiée pour tracer de nombreux types de graphiques couramment utilisés en statistiques, avec un look and feel esthétique par défaut. Seaborn facilite grandement la création de graphiques de qualité professionnelle en Python.
 
@@ -323,7 +325,7 @@ GraphQL est un langage de requête qui permet d'accéder et de manipuler des don
 
 L'API AniList utilise GraphQL pour permettre aux développeurs d'accéder aux données sur les anime, les manga et d'autres contenus liés à l'industrie de l'anime et du manga. Avec l'API AniList, vous pouvez utiliser GraphQL pour faire des demandes de données spécifiques sur les titres d'anime et de manga, les personnages, les producteurs et autres données. Vous pouvez également utiliser GraphQL pour créer et mettre à jour des listes d'anime et de manga que vous avez regardé ou que vous comptez regarder, et pour obtenir des recommandations sur de nouveaux anime et manga en fonction de vos préférences.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.015.png)
+![](img/image.013.png)
 
 *Figure 7 Obtenir un média d'identifiant 231 ainsi que les personnages participant à partir d'une requête GraphQL.[^4]*
 
@@ -337,22 +339,22 @@ Pour accéder à la documentation de l'API AniList, vous pouvez visiter la page 
 
 Sur cette page, vous trouverez une gamme de ressources, notamment un guide de démarrage, une liste de points de terminaison de l'API et des informations détaillées sur les données disponibles via l'API. Vous pouvez également trouver des exemples d'utilisation de l'API pour faire des demandes de données, ainsi que des informations sur l'authentification de vos demandes API et sur la gestion des erreurs.
 
-*Figure 8 Description de l'attribut on mouse Hover*
-
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.016.png)![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.017.png)En plus de la documentation de l'API, le site web AniList propose également une gamme d'autres ressources, notamment un forum pour les développeurs et un dépôt GitHub avec des exemples de code et d'autres ressources. Ces dernières peuvent être utiles si vous avez besoin d'aide supplémentaire ou de guidance lors de l'utilisation de l'API AniList.
+En plus de la documentation de l'API, le site web AniList propose également une gamme d'autres ressources, notamment un forum pour les développeurs et un dépôt GitHub avec des exemples de code et d'autres ressources. Ces dernières peuvent être utiles si vous avez besoin d'aide supplémentaire ou de guidance lors de l'utilisation de l'API AniList.
 
 Exemple de documentation interactive avec l’outil <https://anilist.co/graphiql>:
 
-*Figure 9 Auto-Complete Requête offert par GraphQL*
+*Figure 8 Auto-Complete Requête offert par GraphQL*
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.018.png)![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.019.png)
+*Figure 9 Description de l'attribut on mouse Hover*
+
+![](img/image.014.png)![](img/image.015.png)
 ## Récupération des données
    ### **Model conceptuel des données**
 Afin de mieux comprendre les données qu’on va récupérer de AniList et leurs analyses. On a pu construire un modèle conceptuel de données minimal en se basant sur les connections « edges » existants dans les entités récupérées par GraphQL: 
 
 <https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql/connections>.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.020.jpeg)
+![](img/image.016.jpeg)
 
 *Figure 10 Modèle Conceptuel de Données du AniList*
 
@@ -369,7 +371,7 @@ Remarques :
 
 ### **Traitement de données via AniList API**
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.021.png)
+![](img/image.017.png)
 
 *Figure 11 Diagramme de séquence : Accéder aux données d'AniList, les traiter et afficher les informations souhaitées.*
 
@@ -382,7 +384,7 @@ Remarques :
 
 ### **Traitement local (JSON)**
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.022.png)
+![](img/image.018.png)
 
 *Figure 12 Diagramme de séquence : Sauvegarde de tous les données d'AniList en local*
 
@@ -440,11 +442,11 @@ Pour insérer les données à traiter dans Power Bi, nous avons opté pour l'ins
 
 Nous avons opté pour ce type d'approche car si nous ajoutons en une seule fois le fichier comportant plus de 126 000 lignes et plusieurs colonnes, il serait très pénible pour Power BI d'effectuer son analyse et son chargement. Ce que nous avons fait, c'est insérer un fichier modèle et le traiter de manière à ce que le système puisse comprendre comment comprendre les autres fichiers et simplement reproduire les étapes données pour le premier petit fichier, réduisant ainsi le besoin de traitement et permettant l'ajout de toutes les données.
 
+Toutes ces étapes ont été réalisées dans l'environnement du Power Query Editor, un outil interne développé par Microsoft pour modifier ou transformer les fichiers de données avant qu'ils ne soient chargés dans le tableau de bord Power BI. L'éditeur de requêtes sert de conteneur de données intermédiaire qui vous permet de modifier les données en choisissant les colonnes et les lignes, en faisant pivoter et en dépivotant les colonnes, en divisant les colonnes et les lignes, etc.
+
 *Figure 13 Onglet d'édition des données*
 
-Toutes ces étapes ont été réalisées dans l'environnement du Power Query Editor, un outil interne développé par Microsoft pour modifier ou transformer les fichiers de données avant qu'ils ne soient chargés dans le tableau de bord Power BI. L'éditeur de requêtes sert de conteneur de données intermédiaire qui vous permet de modifier les données en choisissant les colonnes et les lignes, en faisant pivoter et en dépivotant les colonnes, en divisant les colonnes et les lignes, etc.![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.023.png)![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.024.png)
-
-Les fichiers marqués avec "Transform Files" sont utilisés pour définir le modèle de transformation des fichiers comme expliqué ci-dessus. 
+![](img/image.019.png)Les fichiers marqués avec "Transform Files" sont utilisés pour définir le modèle de transformation des fichiers comme expliqué ci-dessus. 
 
 Ci-dessous, regroupés dans le dossier "Other Queries", nous avons tous les tableaux résultants de l'application des sample files à la jointure de toutes les petites archives.
 
@@ -456,13 +458,13 @@ Vous trouverez ci-dessous un exemple de fichier JSON traité pour le fichier li�
 
 En plus de cela, nous avons également réduit la densité des données, car comme on peut le voir, les colonnes qui avaient des fichiers au format "record" sont devenues de simples valeurs. Ceci est dû au décloisonnement effectué, puisque la relation entre les différentes entités dans AniList se fait par "nœuds", seules les valeurs essentielles ont été extraites.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.025.png)![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.026.png)
+![](img/image.020.png)![](img/image.021.png)
 
 *Figure 14 Exemple de transformations de fichiers avant et après traitement pour insertion dans PowerBI*
 
 Le cas ci-dessus n'était qu'un simple exemple, mais Power Query nous fournit de puissants outils de transformation des données, comme indiqué ci-dessous.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.027.png)
+![](img/image.022.png)
 
 *Figure 15 barre d'outils de transformation des données*
 
@@ -473,7 +475,7 @@ Cet onglet nous permet d'effectuer différentes manipulations des données, depu
 
 - **Hometown.City et Hometown.Country** - Ces informations ont été extraites d'un champ unique qui a recueilli les informations de localisation de chaque employé, malgré les efforts pour effectuer le traitement de ces données, en raison de l'absence de norme dans l'insertion des données, les informations sur chacune de ces données ne peuvent pas être complètement fiable
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.028.png)
+![](img/image.023.png)
 
 *Figure 16 données finales traitées dans le tableau relatif aux détails des employés*
 
@@ -481,7 +483,7 @@ Cet onglet nous permet d'effectuer différentes manipulations des données, depu
 ### **Structure finale des données**
 Une fois que toutes les données ont été ajoutées et traitées dans l'éditeur Power Query, nous avons importé ces données dans PowerBi et construit les relations entre les fichiers.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.029.png)
+![](img/image.024.png)
 
 *Figure 17 Organisation des relations entre les tables*
 
@@ -504,7 +506,7 @@ Remarque: PowerBI nous donné aussi la possibilité d'ajouter une légende (comm
 
 Remarque 2: Pour obtenir la ligne de tendance en jeûne il faut juste aller dans le button de la loupe et la rendre activée.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.030.png)
+![](img/image.025.png)
 
 *Figure 18 Exemple de Graphique généré par powerBI*
 #### ` `*Création de colonnes à partir des données insérées*
@@ -512,13 +514,13 @@ Un autre avantage de powerbi est lié à la facilité de manipulation des donné
 
 Dans la figure ci-dessous, il y a quatre colonnes qui ont été créées en utilisant cette fonctionnalité, puis, pour rendre la création des tableaux plus compréhensible, il y a des exemples de codes pour les calculs de chaque colonne.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.031.png)
+![](img/image.026.png)
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.032.png)
+![](img/image.027.png)
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.033.png)
+![](img/image.028.png)
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.034.png)
+![](img/image.029.png)
 
 *Figure 19 Formules et les résultats des colonnes créées à partir des informations saisies dans powerbi*
 
@@ -531,7 +533,7 @@ Pour tester le type de conclusions que nous étions en mesure de créer, nous av
 
 Nous sommes arrivés à quelques noms qui apparaissent avec une certaine fréquence. et si nous voulons nous pouvons cliquer sur le nom de la personne elle-même pour savoir en détail à quel programme elle a participé, comme c'est le cas de justin cook, sélectionné dans l'exemple.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.035.png)
+![](img/image.030.png)
 
 *Figure 20 Exemple de graphe généré avec les filtres de forme, ponctuation et genre*
 
@@ -539,7 +541,7 @@ Un autre cas d'utilisation serait d'analyser certains programmes spécifiques qu
 
 D'après le graphe et le tableau de support, nous pouvons voir qu'il n'y a pas beaucoup de relations entre Naruto et les deux autres séries, mais nous pouvons voir que certains doubleurs sont à la fois dans one piece et dragon ball.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.036.png)
+![](img/image.031.png)
 
 *Figure 21 Graphe en sélectionnant seulement 3 médias*
 
@@ -564,7 +566,7 @@ Comme les données de AniList peuvent être saisies par le public lui-même, il 
 **Media** : Pour les médias, nous constatons que les données sont mieux distribuées, les seules données qui représentent une distribution moins fiable sont celles relatives à l'année et à la saison de sortie, avec seulement 10% des données renseignées. L'information sur le score moyen, bien qu'un peu incomplète, est plus fiable car elle est présente dans plus de 80% des contenus.
 **Staff** : En analysant les données concernant les agents, nous avons réalisé que la plupart d'entre eux n'ont pas été insérés dans la plate-forme et que notre analyse sera probablement sous-représentée. Malgré cela, les informations ont été formatées de telle sorte que si les données sont éventuellement complétées dans la plate-forme, il suffira de modifier les fichiers de référence powerbi pour que les nouvelles informations puissent être insérées.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.037.png)
+![](img/image.032.png)
 
 *Figure 22 Regroupement des données disponibles pour l'analyse par rapport à chaque dossier*
 
@@ -581,7 +583,7 @@ Moyenne des indicateurs principaux des employés.
 
 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.038.png)
+![](img/image.033.png)
 
 *Figure 23 Analyse générale de tous les médias disponibles sur le site*
 
@@ -593,7 +595,7 @@ D'autre part, il est également intéressant de noter que le groupe sanguin le p
 
 L'une des analyses croisées que nous avons effectuées est représentée ci-dessous et consistait à voir s'il y avait une grande différence dans la répartition des sexes concernant les groupes sanguins. La conclusion à laquelle nous sommes parvenus est que pour la plupart des groupes sanguins, la répartition était stable, mais que seul le groupe B a connu un léger changement dans la répartition.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.039.png)
+![](img/image.034.png)
 
 *Figure 24 Analyse croisé Blood type X Gender*
 #### *Analyse générale de tous les médias disponibles sur le site*
@@ -615,7 +617,7 @@ Sur cette page, nous avons comme données principales les facteurs de caractéri
 - De plus, 80% des contenus de la plateforme ont une durée comprise entre 20 et 30 minutes par épisode
 - En ce qui concerne le sexe des personnages, nous constatons que la majorité n'a pas cette donnée sur le site, mais que parmi ceux qui l'ont, il y a une distribution très égale d'environ 15% pour chaque sexe.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.040.png)
+![](img/image.035.png)
 
 *Figure 25 Dashboard General pour analyse des médias*
 
@@ -628,7 +630,7 @@ En outre, comme analyse spécifique, nous avons essayé de comprendre plus en d�
 - Autre changement, la représentation des contenus pour adultes est beaucoup plus importante, puisqu'elle est de 45%.
 - En outre, conformément aux informations ci-dessus, nous constatons un changement important dans les genres de médias, puisque sur les 802 médias classés 100, 349 sont au moins classés comme Hentai, suivis par la romance, la comédie et le drame.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.041.png)
+![](img/image.036.png)
 
 *Figure 26 Analyse spécifique des médias avec MeanScore de 100*
 #### *Analyse spécifique d'un ou plusieurs médias*
@@ -636,7 +638,7 @@ Le graphique suivant présente certaines informations déjà vues dans le préc�
 
 Ainsi, bien que nous puissions effectuer une analyse générale de tous les anime, l'objectif principal dans ce cas est de pouvoir visualiser des informations groupées du même média, ou la comparaison de quelques médias.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.042.png)
+![](img/image.037.png)
 
 *Figure 27 Dashboard pour analyse détaillé d'un media*
 
@@ -649,13 +651,13 @@ Pour illustrer l'analyse réelle qui pourrait être faite, nous avons sélection
 - Bien que la qualité des données ne soit pas parfaite, nous pouvons constater que les travailleurs de l'anime ont des origines bien définies, puisque près de la moitié d'entre eux viennent du Japon et l'autre moitié des États-Unis, ce qui se reflète également dans la langue qu'ils parlent.
 - En ce qui concerne le mois de naissance, nous constatons également qu'il n'y a pas de tendance, la distribution étant homogène tout au long des mois. 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.043.png)
+![](img/image.038.png)
 
 *Figure 28 Analyse singulier de "One Piece"*
 #### *Visualisation spécifique de tous les supports sous forme de tableau avec regroupement des données*
 En tant que dernière visualisation, nous présentons également une information groupée sur les médias sous forme de tableau. Tout comme le dernier tableau de bord présenté, celui-ci cherche une vue plus spécifique en montrant les détails de médias spécifiques. Les mêmes filtres disponibles précédemment sont toujours présents dans cette vue afin que nous puissions obtenir un groupe d'informations plus précis.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.044.png)
+![](img/image.039.png)
 
 *Figure 29 Dashboard avec des spécifications sur chaque media*
 
@@ -666,7 +668,7 @@ Une fois de plus, nous avons également réalisé un exemple et une analyse poss
 - La durée de tous les cours est comprise entre 80 et 90 minutes ;
 - La plupart d'entre eux ont été produits au Japon ;
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.045.png)
+![](img/image.040.png)
 
 *Figure 30 Exploitation spécifique des médias avec MeanScore > 70 et Durée > 60*
 
@@ -687,9 +689,9 @@ Regrouper toutes les images en une seule image sous forme de grille.
 
 Les deux méthodes retournent le même résultat, ce qui signifie que notre copie de données en local est à jour. Voici un exemple de résultat de ce traitement :
 
-![D:\D\_Files\meFiles\_Suite\ECN\_2nd\_year\Projet d'Application\Python\_Tuto\_Intellij\3.DataFrame Manipulations\test.jpg](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.046.jpeg)
+![D:\D\_Files\meFiles\_Suite\ECN\_2nd\_year\Projet d'Application\Python\_Tuto\_Intellij\3.DataFrame Manipulations\test.jpg](img/image.041.jpeg)
 
-*Figure 22 Groupe des personnage nées dans la même journée (29/12/2022)*
+*Figure 31 Groupe des personnage nées dans la même journée (29/12/2022)*
 
 
 ### `	`**Corrélation du sexe des personnages avec leurs doubleurs**
@@ -707,18 +709,16 @@ Cependant, nous avons constaté que les femmes doublent plus souvent des personn
 
 Pour confirmer cette hypothèse, parmi les 1 332 cas, nous avons 310 cas où les âges des doubleurs et des personnages sont tous deux définis. Le nuage de points ci-dessous montre que ces personnages sont des enfants (moyenne d'âge des personnages = 15,048065 ans).
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.047.png)
+![](img/image.042.png)
 
-*Figure 23: Nuage de points des personnages masculins doublés par des doubleurs féminins*
+*Figure 32: Nuage de points des personnages masculins doublés par des doubleurs féminins*
 ### `	`**Corrélation des âges des personnages avec leurs doubleurs**
    #### *Préférence par date de naissance du personnage*
 Notre première analyse portait sur les préférences mensuelles choisis pour les personnages animés. Pour cela, Nous avons réparti les personnages selon les mois de l'année. La distribution est uniforme sur les mois.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.048.png)
+![](img/image.043.png)
 
-*Figure 24 Répartition des personnages sur leurs mois de naissance*
-
-Une autre approche était de déterminer si les doubleurs ont des préférences quant au mois de naissance des personnages qu'ils doublent. Pour cela, nous avons étudié la corrélation entre les dates de naissance des doubleurs et celles des personnages. Cependant, nous n'avons pas trouvé de relation intéressante, et presque toutes les corrélations étaient nulles. Voici un heatmap qui montre le tableau de contingence entre les dates de naissance des personnages et des doubleurs. 
+*Figure 33 Répartition des personnages sur leurs mois de naissance*
 
 Remarque : 
 
@@ -726,9 +726,11 @@ Remarque :
 - Minimum : 40 par tous les carrés
 - Moyenne : 70 par colonne.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.049.png)![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.050.png)
+*Figure 34 Heatmap du tableau de contingence entre les mois de naissance des personnages et ceux des doubleurs*
 
-*Figure 25 Heatmap du tableau de contingence entre les mois de naissance des personnages et ceux des doubleurs*
+![](img/image.044.png)Une autre approche était de déterminer si les doubleurs ont des préférences quant au mois de naissance des personnages qu'ils doublent. Pour cela, nous avons étudié la corrélation entre les dates de naissance des doubleurs et celles des personnages. Cependant, nous n'avons pas trouvé de relation intéressante, et presque toutes les corrélations étaient nulles. Voici un heatmap qui montre le tableau de contingence entre les dates de naissance des personnages et des doubleurs. 
+\*
+
 #### *Préférence par âge de personnage*
 ` `Une deuxième analyse portait sur la relation entre les doubleurs et leurs personnages. Bien que l'âge au moment du doublage ne soit pas fourni, il est possible de le calculer à partir de la date de naissance du doubleur et de la date de sortie du média grâce à la relation tertiaire existante entre les entités "staff", "character" et "media" illustrée dans la section ‎2.3.1 Model conceptuel des données. Cette relation est traduite dans GraphQL par deux attributs de type liste dans l'entité "staff", et ces deux listes peuvent être combinées en une seule en utilisant l'identifiant de l'edge.
 
@@ -761,9 +763,9 @@ Nous avons aussi constaté une corrélation de 0,574728 entre ces deux variables
 
 En moyenne, les doubleurs ayant un âge inférieur à 50 ans ont tendance à doubler des personnages plus jeunes d'environ 10 ans. Cependant, pour les doubleurs ayant un âge supérieur à 50 ans, ils peuvent doubler des personnages ayant une différence d'âge plus grande, ce qui peut être considéré comme une voix "vieillissante".
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.051.png)
+![](img/image.045.png)
 
-*Figure 26 Distribution des âges des personnages par rapport à ceux de leurs doubleurs*
+*Figure 35 Distribution des âges des personnages par rapport à ceux de leurs doubleurs*
 
 **La ligne bleue** montre la distribution moyenne des âges des personnages par rapport aux âges des doubleurs. Cette ligne se situe dans **une plage bleue** qui indique la distribution réelle des âges des personnages par rapport aux âges des doubleurs. 
 
@@ -777,9 +779,9 @@ Pour répondre à la question de savoir si les équipes de travail devraient avo
 
 Après une première analyse des données, nous avons constaté que les médias de petite taille (3648/4736 avec moins de 15 doubleurs) ont des doubleurs d'âge similaire, avec une moyenne d'écart-type de 8,35 ans. En revanche, pour les médias de grande taille (818/4736 avec plus de 15 doubleurs), les doubleurs ont un écart-type d'âge de 11,13 ans. 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.052.png)
+![](img/image.046.png)
 
-*Figure 27 écart-type des âges des doubleurs au sein de différentes équipes*
+*Figure 36 écart-type des âges des doubleurs au sein de différentes équipes*
 
 Pour expliquer cette différence entre les deux distributions, on peut comparer un média de petite taille à une startup et un média de grande taille à une grande entreprise. Au démarrage d'une startup, il est fréquent qu'il y ait un groupe de jeunes personnes d'âge similaire. Plus tard, lorsque l'entreprise s'agrandit, les personnes vieillissent et il y a toujours de nouvelles jeunes personnes qui entrent dans l'entreprise, augmentant l'écart-type des âges de l'entreprise.
 
@@ -792,9 +794,9 @@ En conclusion, nous avons constaté que les résultats obtenus avec Microsoft Po
    ### **Motivation**
 Pour visualiser de manière plus claire la collaboration entre les travailleurs dans un media, nous avons décidé de créer un graphe où chaque nœud représente une personne et où chaque arête indique que cette personne a collaboré avec une autre personne dans un media. Par exemple, pour "Détective Conan", nous avons d'abord essayé de visualiser un tel graphe dans un notebook, mais le graphe était assez dense, difficile à analyser et à comprendre, et manquait de possibilités de contrôle dynamique telles que le déplacement d'un nœud, l'affichage de détails autour d'un nœud (c'est-à-dire le nom de la personne, son URL, etc.). Voici le graphe produit dans le notebook:
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.053.png)
+![](img/image.047.png)
 
-*Figure 28 Graphe complexe et indéchiffrable des travailleurs d'une série japonaise*
+*Figure 37 Graphe complexe et indéchiffrable des travailleurs d'une série japonaise*
 ### **Présentation du bibliothèque Dash**
 Dash est une bibliothèque Python open source qui permet de créer des interfaces de visualisation de données interactives et des tableaux de bord. Elle est basée sur les bibliothèques Flask, Plotly.js et React et offre une large gamme de composants prédéfinis et de options de mise en page pour la création de visualisations de données complexes et professionnelles.
 
@@ -804,21 +806,21 @@ En plus de ses fonctionnalités de visualisation de données, Dash offre égalem
 ### `	`**Graphe des équipes de travailles en fonction des séries**
 Le but de cette analyse est de développer un outil de visualisation en utilisant Dash qui permet de visualiser les relations entre les travailleurs dans une série de médias et de déterminer les personnes les plus importantes pour la continuation de cette série. Une fois Dash lancé, il nous fournit une URL locale pour accéder au site web ci-dessous.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.054.png)
+![](img/image.048.png)
 
-*Figure 29 Page initial Dash*
+*Figure 38 Page initial Dash*
 #### *Graphe type 1: Nœuds Travailleurs uniquement*
 Pour commencer, nous utilisons la saisie principale "Media Name" pour effectuer une recherche en direct dans un DataFrame Python qui contient environ 130 000 médias. Si le média entré est trouvé, nous utilisons l'attribut de connexion "Media.relations" de GraphQL de type one-to-many pour récupérer tous les médias de la série de ce média. Ensuite, pour chaque média de la série, nous créons un graphe complet où les nœuds représentent les travailleurs.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.055.png)
+![](img/image.049.png)
 
-*Figure 30 Graph du serie Ayakashi: Japanese Classic Horror*
+*Figure 39 Graph du serie Ayakashi: Japanese Classic Horror*
 
 Pour afficher de manière simple, chaque nœud ne contient que l'identifiant du travailleur. Cependant, si nous cliquons sur un nœud, nous pouvons obtenir plus de détails sur ce travailleur. Le nœud est alors mis en surbrillance (bleu) et un nouveau tableau s'affiche avec l'URL d'Anilist du travailleur et un autre tableau présentant ses rôles dans chaque média de la série. Par exemple, dans la figure ci-dessous, « Yasuharu Takanashi » a eu le rôle de musicien dans 2 sur 3 des animés de la série.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.056.png)
+![](img/image.050.png)
 
-*Figure 31 Nœud Travailleur mis en évidence*
+*Figure 40 Nœud Travailleur mis en évidence*
 
 Selon ces analyses, nous pouvons voir qu'il y a deux animes qui ont trois personnes en commun ayant des rôles de musicien, producteur et réalisateur.
 
@@ -841,9 +843,9 @@ Afin de rendre le graphe plus lisible et facile à analyser, nous avons décidé
 
 Cette option peut être activée en cochant la case "Showing Media nodes". Voici le graphe généré pour l'exemple précédemment mentionné: 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.057.png)
+![](img/image.051.png)
 
-*Figure 32 Graph du serie Ayakashi: Japanese Classic Horror avec les medias parents*
+*Figure 41 Graph du serie Ayakashi: Japanese Classic Horror avec les medias parents*
 
 Sur cette graphe, on voit clairement le troisième média, qui est un manga et a été créé par Yaeko Ninagawa, mais qui n'a pas participé à la création d'animations pour ce manga.
 
@@ -851,18 +853,18 @@ Sur cette graphe, on voit clairement le troisième média, qui est un manga et a
 
 Pour afficher de manière simple, chaque nœud de type media a son nom seulement, en cliquant dessus, un tableau est affiché avec tous les travailleurs participant à ce média et leurs rôles, comme le montre la figure ci-dessous.
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.058.png)
+![](img/image.052.png)
 
-*Figure 33 Nœud Media mis en evidence*
+*Figure 42 Nœud Media mis en evidence*
 
 \+ Fonctionnalités (en plus des fonctionnalités déjà présente dans le premier type de graphe):
 
 Afficher les détails et les rôles des travailleurs lorsqu'un média est mis en évidence
 Sélectionner simultanément un nœud de type média et un nœud de type travailleur pour afficher le rôle du travailleur dans ce média
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.059.png)
+![](img/image.053.png)
 
-*Figure 34 Plusieurs nœuds Travailleurs mis en évidence dans un media*
+*Figure 43 Plusieurs nœuds Travailleurs mis en évidence dans un media*
 
 
 #### ` `*Affichage d’un série complexe*
@@ -872,25 +874,25 @@ On entre « one », le media est trouvé avec 49 médias du serie.
 
 Affichage graphe de type 1 (travailleurs uniquement)
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.060.png)
+![](img/image.054.png)
 
-*Figure 35 Graphe type 1 de la série "One Pièce" Travailleurs seulement*
+*Figure 44 Graphe type 1 de la série "One Pièce" Travailleurs seulement*
 
 Après avoir zoomé au centre de l'image, nous avons trouvé un nœud qui est presque lié à tous les autres, mais l'affichage n'est pas satisfaisant. 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.061.png)
+![](img/image.055.png)
 
-*Figure 36 Zoom au centre du  graphe type 1 de la série "One Pièce"*
+*Figure 45 Zoom au centre du  graphe type 1 de la série "One Pièce"*
 
 Un résultat pareil est obtenu avec l’affichage en graphe de type 2 : 
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.062.png)
+![](img/image.056.png)
 
-*Figure 37 Graphe type 2 de la série "One Pièce" Travailleurs Et Médias*
+*Figure 46 Graphe type 2 de la série "One Pièce" Travailleurs Et Médias*
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.063.png)
+![](img/image.057.png)
 
-*Figure 38 Zoom au centre du graphe type 2 de la série "One Pièce"*
+*Figure 47 Zoom au centre du graphe type 2 de la série "One Pièce"*
 
 Pour ces raisons d’affichage complexes, nous avons décidé d'ajouter des filtres:
 
@@ -909,9 +911,9 @@ Dans le cas de "One Piece", en utilisant un filtre de travail minimum de 10 et u
 |**Shiro Hamaguchi**|11|Music|
 *Tableau 5 Résultat des travailleurs restants "One Pièce" après le filtrage*
 
-![](Aspose.Words.faa8332f-0e67-4f14-bf30-4225ea465313.064.png)
+![](img/image.058.png)
 
-*Figure 39 Graphe type 2 de la série "One Pièce" après le filtrage*
+*Figure 48 Graphe type 2 de la série "One Pièce" après le filtrage*
 # Difficultés rencontrées
 L'élaboration de ce projet a été difficile, car nous avons dû faire face à de nombreux défis et obstacles. Tout d'abord, il a été difficile de trouver et de rassembler les données nécessaires pour réaliser notre projet. Nous avons dû passer beaucoup de temps à rechercher et à collecter les données via GraphQL avec Python sans faire drainer l’API.
 

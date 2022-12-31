@@ -1,0 +1,7 @@
+generate readme from word using site: https://products.aspose.app/words/conversion/word-to-md
+
+get high quality image using site: https://www.vertopal.com/
+
+regex rename all image in read me to use img/image.xxx.png
+remove 1. from README.MD
+remove table of content and generate one using intellij.
