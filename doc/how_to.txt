@@ -4,4 +4,4 @@ get high quality image using site: https://www.vertopal.com/
 
 regex rename all image in read me to use img/image.xxx.png
 remove 1. from README.MD
-remove table of content and generate one using intellij.
+remove table of content and generate one using https://derlin.github.io/bitdowntoc/
