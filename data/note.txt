@@ -1,0 +1,4 @@
+Run Mass Data Collection scripts to download data.
+Once done, copy generated json file into "data" folder.
+otherwise you can clone below repo in here
+https://github.com/Ahmad-Said/AniList-Data
