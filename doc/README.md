@@ -65,7 +65,7 @@ Un style d'animation cinématographique et télévisuelle japonaise, généralem
 - [Chapitre II Méthodologie](#chapitre-ii-méthodologie)
    + [**Bibliothèque pandas**](#bibliothèque-pandas)
    + [**Bibliothèque Seaborn et Plotly**](#bibliothèque-seaborn-et-plotly)
-   * [`	`Présentation de l’API AniList](#-présentation-de-lapi-anilist)
+   * [Présentation de l’API AniList](#présentation-de-lapi-anilist)
       + [**Documentation des requêtes**](#documentation-des-requêtes)
    * [Récupération des données](#récupération-des-données)
       + [**Traitement de données via AniList API**](#traitement-de-données-via-anilist-api)
@@ -85,14 +85,14 @@ Un style d'animation cinématographique et télévisuelle japonaise, généralem
          - [*Analyse spécifique d'un ou plusieurs médias*](#analyse-spécifique-dun-ou-plusieurs-médias)
          - [*Visualisation spécifique de tous les supports sous forme de tableau avec regroupement des données*](#visualisation-spécifique-de-tous-les-supports-sous-forme-de-tableau-avec-regroupement-des-données)
    * [Analyse en notebook](#analyse-en-notebook)
-      + [`	`**Corrélation du sexe des personnages avec leurs doubleurs**](#-corrélation-du-sexe-des-personnages-avec-leurs-doubleurs)
-      + [`	`**Corrélation des âges des personnages avec leurs doubleurs**](#-corrélation-des-âges-des-personnages-avec-leurs-doubleurs)
+      + [**Corrélation du sexe des personnages avec leurs doubleurs**](#corrélation-du-sexe-des-personnages-avec-leurs-doubleurs)
+      + [**Corrélation des âges des personnages avec leurs doubleurs**](#corrélation-des-âges-des-personnages-avec-leurs-doubleurs)
          - [*Préférence par âge de personnage*](#préférence-par-âge-de-personnage)
       + [**L'âge de l'équipe de travailleurs au moment du lancement d'un média**](#lâge-de-léquipe-de-travailleurs-au-moment-du-lancement-dun-média)
       + [**Conclusion**](#conclusion-2)
    * [Elaboration en web application interactive](#elaboration-en-web-application-interactive)
       + [**Présentation du bibliothèque Dash**](#présentation-du-bibliothèque-dash)
-      + [`	`**Graphe des équipes de travailles en fonction des séries**](#-graphe-des-équipes-de-travailles-en-fonction-des-séries)
+      + [**Graphe des équipes de travailles en fonction des séries**](#graphe-des-équipes-de-travailles-en-fonction-des-séries)
          - [*Graphe type 1: Nœuds Travailleurs uniquement*](#graphe-type-1-nuds-travailleurs-uniquement)
          - [*Graphe Type 2 :  Nœuds Travailleurs et Médias (Nœuds parents)*](#graphe-type-2-nuds-travailleurs-et-médias-nuds-parents)
          - [` `*Affichage d’un série complexe*](#-affichage-dun-série-complexe)
@@ -285,7 +285,7 @@ A partir de la connaissance de base de la plateforme, nous pouvons enfin défini
 
 Ces deux objectifs seront atteints en utilisant les données fournies par AniList et en menant une analyse approfondie de ces données.
 # Chapitre II Méthodologie
-   ## `	`Environnement de travail
+   ## Environnement de travail
       ### **Python et Jupyter Notebook** 
 ![](img/image.007.png)			![Jupyter — Wikipédia](img/image.008.png)
 
@@ -310,7 +310,7 @@ Pandas offre de nombreux avantages pour la manipulation et l'analyse de données
 Seaborn est une bibliothèque de tracé de graphiques statistiques pour Python qui s'appuie sur Matplotlib. Elle offre une interface simplifiée pour tracer de nombreux types de graphiques couramment utilisés en statistiques, avec un look and feel esthétique par défaut. Seaborn facilite grandement la création de graphiques de qualité professionnelle en Python.
 
 Plotly est une autre bibliothèque de tracé de graphiques pour Python qui permet de créer des graphiques interactifs de haute qualité. Elle est également facile à utiliser et offre la possibilité de créer des tableaux de bord esthétiques et informatifs en utilisant la bibliothèque Dash. Cependant, Plotly offre également de nombreuses ressources pour créer des graphiques plus complexes et informatifs, ce qui en fait une option polyvalente pour la visualisation de données.
-## `	`Présentation de l’API AniList
+## Présentation de l’API AniList
    ### **GraphQL API**
 GraphQL est un langage de requête qui permet d'accéder et de manipuler des données stockées dans une base de données ou une autre source de données. Il permet aux clients de demander des données spécifiques à un serveur, plutôt que de recevoir un ensemble prédéfini de données. Cela permet aux clients d’obtenir exactement les données dont ils ont besoin, dans le format dont ils ont besoin, sans avoir à demander plus ou moins de données qu'ils n'en ont besoin.
 
@@ -665,7 +665,7 @@ Une fois de plus, nous avons également réalisé un exemple et une analyse poss
 
 
 ## Analyse en notebook
-   ### `	`**Groupe des images de caractères nés en même journée**
+   ### **Groupe des images de caractères nés en même journée**
 Nous avons d'abord effectué une analyse des données pour regrouper les images de personnages nés aujourd'hui. Nous avons utilisé deux méthodes pour effectuer cette analyse :
 
 En utilisant une requête de filtrage GraphQL directe qui nous a donné les personnages nés aujourd'hui.
@@ -685,7 +685,7 @@ Les deux méthodes retournent le même résultat, ce qui signifie que notre copi
 *Figure 31 Groupe des personnage nées dans la même journée (29/12/2022)*
 
 
-### `	`**Corrélation du sexe des personnages avec leurs doubleurs**
+### **Corrélation du sexe des personnages avec leurs doubleurs**
 Après avoir établi les relations entre les personnages et leurs doubleurs, nous avons constaté que 29 430 sexes étaient définis parmi 112 207. Comme le montre le tableau de contingence ci-dessous, nous avons observé que les doubleurs doublent souvent des personnages du même genre, ce qui est logique.
 
 |**Sexe des personnages**|**Féminin**|**Masculin**|<p>**Total**</p><p></p>|
@@ -703,7 +703,7 @@ Pour confirmer cette hypothèse, parmi les 1 332 cas, nous avons 310 cas où les
 ![](img/image.042.png)
 
 *Figure 32: Nuage de points des personnages masculins doublés par des doubleurs féminins*
-### `	`**Corrélation des âges des personnages avec leurs doubleurs**
+### **Corrélation des âges des personnages avec leurs doubleurs**
    #### *Préférence par date de naissance du personnage*
 Notre première analyse portait sur les préférences mensuelles choisis pour les personnages animés. Pour cela, Nous avons réparti les personnages selon les mois de l'année. La distribution est uniforme sur les mois.
 
@@ -794,7 +794,7 @@ Dash est une bibliothèque Python open source qui permet de créer des interface
 Dash est particulièrement utile pour la création de tableaux de bord de visualisation de données, car elle permet de créer des graphiques, des tableaux et d'autres éléments visuels de manière simple et rapide en utilisant du code Python. Elle inclut également un support pour des éléments interactifs tels que des menus déroulants et des curseurs, ce qui permet aux utilisateurs d'interagir avec les données et de modifier la visualisation en temps réel.
 
 En plus de ses fonctionnalités de visualisation de données, Dash offre également des outils pour la création d'interfaces utilisateur, la connexion à des sources de données et le déploiement d'applications sur le web. Cela en fait un outil puissant et polyvalent pour une large gamme de tâches de visualisation et d'analyse de données. 
-### `	`**Graphe des équipes de travailles en fonction des séries**
+### **Graphe des équipes de travailles en fonction des séries**
 Le but de cette analyse est de développer un outil de visualisation en utilisant Dash qui permet de visualiser les relations entre les travailleurs dans une série de médias et de déterminer les personnes les plus importantes pour la continuation de cette série. Une fois Dash lancé, il nous fournit une URL locale pour accéder au site web ci-dessous.
 
 ![](img/image.048.png)
