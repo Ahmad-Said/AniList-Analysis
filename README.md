@@ -32,4 +32,5 @@ To start understaind coding part, start with [1.Getting Started/getting_started.
 To load previously dumped data from api clone repo: [Ahmad-Said/AniList-Data](https://github.com/Ahmad-Said/AniList-Data)
 into [data folder](./data)
 
+Related Power BI report present at [Anilist-PowerBi-Analysis](https://github.com/RafaelVMoraes/Anilist-PowerBi-Analysis)
 
