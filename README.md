@@ -29,7 +29,7 @@ To start understanding the project, you can read report in [documention folder](
 
 To start understaind coding part, start with [1.Getting Started/getting_started.ipynb](./1.Getting%20Started/getting_started.ipynb)
 
-To load previously dumped data from api clone repo: [Ahmad-Said/AniList-Data](https://github.com/Ahmad-Said/AniList-Data)
+To load previously dumped data from api clone repo: [AniList-Data](https://github.com/Ahmad-Said/AniList-Data)
 into [data folder](./data)
 
 Related Power BI report present at [Anilist-PowerBi-Analysis](https://github.com/RafaelVMoraes/Anilist-PowerBi-Analysis)
